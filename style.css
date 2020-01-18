@@ -1,0 +1,94 @@
+	body {
+			margin:0;
+			padding:0;
+			font: 18px/36px "Avenir Next", sans-serif;
+			background-color: #fff;
+			color:#2A324B;
+		}
+
+		#wrapper {
+			margin: 10px auto 0px;
+			text-align: left;
+			position: relative;
+			top:5%;
+			padding-bottom:30px;
+			max-width: 560px;
+			width: 100%;
+		}
+
+		.container {
+			padding: 30px;
+		}
+
+		h1 {
+			font: 32px "Tiempos Headline", sans-serif;
+			font-weight: 500;
+			margin-top: 50px;
+			margin-bottom:0px;
+		}
+		h2 {
+			font: 16px/38px "Avenir Next", sans-serif;
+			font-weight: 700;
+			padding-top: 15px;
+		}
+
+		h3 {
+			font: 16px/38px "Avenir Next", sans-serif;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			font-weight: 500;
+		}
+
+		h4 {
+			font: 16px/38px "Tiempos Headline", sans-serif;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			font-weight: 500;
+		}
+
+		.infotext { 
+			font: 18px/38px "Avenir Next", sans-serif;
+			font-weight: 500;
+			color: #676E85;
+		 }
+
+		 .caption {
+		 	font-style: italic;
+			color: #676E85;
+			text-align: center;
+		 }
+
+		ul, ol {
+			font: 16px/38px "Avenir Next", sans-serif;
+			font-weight: 500;
+		}
+
+		a, a:active, a:visited {
+			color: #2b7fff;
+			text-decoration:underline;			
+		}
+
+		a, a:hover {
+			color: #2464c5;
+			text-decoration:underline;			
+		}
+
+		strong {
+			color: #2A324B;
+			font-weight: bold;
+		}
+
+		img {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		}
+
+		.img-border {
+			border:1px solid #E5E5E5;
+		}
+
+		.backtop{
+			text-align: right;
+		}
+		
