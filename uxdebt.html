@@ -1,126 +1,103 @@
-
 <html>
-
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<title>UX debt</title>
-	<link href="style.css" rel="stylesheet">
-	<meta name="Title" content="Lichen Zhang">
-	<meta name="Description" content="Lichen Zhang's portfolio">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Keywords" content="lichen zhang, zhang">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-	<link rel="icon" href="./favicon.ico" type="image/x-icon">
-	<!-- Hotjar Tracking Code for https://www.lichenzhang.com/ -->
-	<script>
-	    (function(h,o,t,j,a,r){
-	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-	        h._hjSettings={hjid:1369181,hjsv:6};
-	        a=o.getElementsByTagName('head')[0];
-	        r=o.createElement('script');r.async=1;
-	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-	        a.appendChild(r);
-	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
-
-</head>
-
-
-<body>
-	<a name="top"></a>
-	<div class="container" >
-		<div id="wrapper">
-
-			<h1>Paying back UX debt</h1>
-
-			<span class="infotext">Identifying, prioritizing, and triaging UX debt with product and customer-facing teams</span>
-
-			<h2>Background</h2>
- 
-			<h3>Over the past 7 years that we spent building Smile, we also accumulated a lot of UX debt along the way. One of our objectives for 2020 was to improve our technical and UX foundations. Like tech debt, our UX debt has piled up over time. As 2019 drew to a close, I sought to first identify the UX debt we've collected so that our project teams would be ready to resolve them in the new year. 🕵🏻‍♀️
-			</h3>
-
-			<h3>Goals to improve our UX foundations were to:</h3>
-			<ul>
-				<li>Resolve high impact UX debt to strengthen our existing product and improve ease of use.</li>
-				<li>Decrease the number of support chats and emails to improve merchants’ ability to self-serve.</li>
-			</ul>
-
-			<h3>There are a couple of articles written about how tech companies should address UX debt, but there haven't been many examples where they share their process and show how their product teams make it happen.</h3>
-
-			<h3>Given the abundance of abstracted advice and lack of actual examples happening from fast growing startups, I thought it would be valuable to share how I identified, prioritized, and triaged UX debt at Smile.</h3>
-
-			<h3>An <a href="https://www.nngroup.com/articles/ux-debt/" target="blank">article</a> from the NN/g was used as a guide to set us up in the right direction. This prioritization matrix was used to evaluate issues relative to one another.</h3>
-
-			<img src="images/severityplotforuxdebt.png" alt="Severity plot for UX debt">
-
-			<h2>Identifying UX debt</h2>
-			<h3>To us, UX debt includes any persistent problems that negatively impact our merchant or their customers' experiences. We looked for UX debt in areas including,</h3>
-			<ul>
-				<li>User interface (e.g. buttons, cards, and visual consistency)</li>
-				<li>Copy (e.g. labels, headlines, and messaging)</li>
-				<li>Information architecture (e.g. navigation structures and content classification)</li>
-				<li>Accessibility (contrast and visual focus indicators)</li>
-				<li>Customer journey consistency</li>
-			</ul>
-			<h3>In identifying UX debt, we focused on both our merchant and customer facing experiences:</h3>
-			<ul>
-				<li>Smile Admin (merchant-facing)</li>
-				<li>Smile UI (customer-facing)</li>
-			</ul>
-			<h3>First I gathered my design team to identify all the UX debt that were top-of-mind (stuff that had been bugging us for ages). These items were the first to populate our UX debt list.</h3>
-			<h3>In addition, I set up time with the product (PMs and developers) and support team to open up the discussion and bring forward more UX debt items. Together, we shared trends and patterns we'd seen from analytics or from our support chats to decide if further investigation was needed to build the list. 📃</h3>
-			<h3>Perhaps the best way to uncover UX debt was by collecting our merchants' feedback. The sources for user feedback I looked to include,</h3>
-			<ul>
-				<li>Tags and trends on support chats.</li>
-				<li>Chat and email conversations we've had with merchants on support chats.</li>
-				<img src="images/helscout-chat.png" alt="UserTesting.com example">
-				<li>Ongoing user tests that focus on key user flows.</li>
-				<img src="images/usertestingcom.png" alt="UserTesting.com example">
-				<li>Analytics from Mixpanel and Metabase when anecdotal/qualitative evidence weren't enough to give us the context we needed.</li>
-			</ul>
-			<h3>Lastly, we worded each issue from our merchants' or their customers' standpoint and how frequently each issue occurs.</h3>
-			<img src="images/debt-example.png" alt="UX debt example">
-
-			<h2>Prioritizing UX debt</h2>
-			<h3>When we had gathered a list of UX debt issues, their severity, frequency, and location in the user journeys were used to drive their prioritization.</h3>
-			<h3>Using color, I categorized each UX debt issue by their location:</h3>
-			<h3>Smile Admin:</h3>
-			<ul>
-				<li>Onboarding</li>
-				<li>Home</li>
-				<li>Program</li>
-				<li>Customers</li>
-				<li>Performance</li>
-				<li>Branding</li>
-				<li>Notifications</li>
-				<li>Apps</li>
-				<li>Settings</li>
-				<li>Navigation</li>
-			</ul>
-			<h3>Smile UI:</h3>
-			<ul>
-				<li>Launcher</li>
-				<li>Panel</li>
-			</ul>
-			<h3>The list of UX debt looked like this:</h3>
-			<img src="images/matrix-empty.png" alt="Empty severity plot for UX debt">
-
-			<h2>Triaging UX debt</h2>
-			<h3>Once the UX debt issues were categorized, I set up some more time with the product team including PMs and developers to place each of the items on a prioritization matrix. However, instead of visualizing the matrix as a scatter plot, I decided to make each quadrant a bucket. The quadrants that were labeled, High impact-Low effort, were the issues we planned to tackle first.</h3>
-
-			<h3>Once we were done, the matrix looked like this: </h3>
-
-			<img src="images/matrix-full.png" alt="Populated severity plot for UX debt">
-
-			<h3>Since we use Jira to manage our project sprints, I added the High impact-Low effort issues into our first sprint for the new year. By entering these UX debt issues as tasks in Jira, we created a source of truth for tracking the progress of the UX debt, set clear accountability, and created a lightweight road map for whittling down our debt.</h3>
-
-			<h3>After two sprints and several releases, from incremental improvements to modest redesigns, we’ve learned a lot about tackling UX debt as a product team, and the nitty gritty involved in getting these out the door as fast as possible. 💨</h3>
-
-			<h3 class="backtop"><a href="#top">Back to top</a></h3>
-
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>UX debt</title>
+		<link href="style.css" rel="stylesheet">
+		<meta name="Title" content="Lichen Zhang">
+		<meta name="Description" content="Lichen Zhang's portfolio">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Keywords" content="lichen zhang, zhang">
+		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+		<link rel="icon" href="./favicon.ico" type="image/x-icon">
+		<!-- Hotjar Tracking Code for https://www.lichenzhang.com/ -->
+		<script>
+		(function(h,o,t,j,a,r){
+		h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+		h._hjSettings={hjid:1369181,hjsv:6};
+		a=o.getElementsByTagName('head')[0];
+		r=o.createElement('script');r.async=1;
+		r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+		a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+	</head>
+	<body>
+		<a name="top"></a>
+		<div class="container" >
+			<div id="wrapper">
+				<h1>Paying back UX debt</h1>
+				<span class="infotext">Identifying, prioritizing, and triaging UX debt with product and customer-facing teams</span>
+				<h2>Background</h2>
+				
+				<h3>Over the past 7 years that we spent building Smile, we also accumulated a lot of UX debt along the way. One of our objectives for 2020 was to improve our technical and UX foundations. Like tech debt, our UX debt has piled up over time. As 2019 drew to a close, I sought first to identify the UX debt we've collected so that our project teams would be ready to resolve them in the new year. 🕵🏻‍♀️
+				</h3>
+				<h3>Goals to improve our UX foundations were to:</h3>
+				<ul>
+					<li>Resolve high impact UX debt to strengthen our existing product and improve ease of use.</li>
+					<li>Decrease the number of support chats and emails to improve merchants’ ability to self-serve.</li>
+				</ul>
+				<h3>There are a couple of articles written about how tech companies should address UX debt, but there haven't been many examples where they share their process and show how their product teams make it happen.</h3>
+				<h3>Given the abundance of abstracted advice and lack of actual examples happening from fast-growing startups, I thought it would be valuable to share how I identified, prioritized, and triaged UX debt at Smile.</h3>
+				<h3>An <a href="https://www.nngroup.com/articles/ux-debt/" target="blank">article</a> from the NN/g was used as a guide to set us up in the right direction. This prioritization matrix was used to evaluate issues relative to one another.</h3>
+				<img src="images/severityplotforuxdebt.png" alt="Severity plot for UX debt">
+				<h2>Identifying UX debt</h2>
+				<h3>To us, UX debt includes any persistent problems that negatively impact our merchant or their customers' experiences. We looked for UX debt in areas including,</h3>
+				<ul>
+					<li>User interface (e.g. buttons, cards, and visual consistency)</li>
+					<li>Copy (e.g. labels, headlines, and messaging)</li>
+					<li>Information architecture (e.g. navigation structures and content classification)</li>
+					<li>Accessibility (contrast and visual focus indicators)</li>
+					<li>Customer journey consistency</li>
+				</ul>
+				<h3>In identifying UX debt, we focused on both our merchant and customer facing experiences:</h3>
+				<ul>
+					<li>Smile Admin (merchant-facing)</li>
+					<li>Smile UI (customer-facing)</li>
+				</ul>
+				<h3>First, I gathered my design team to identify all the UX debt that were top-of-mind (stuff that had been bugging us for ages). These items were the first to populate our UX debt list.</h3>
+				<h3>In addition, I set up time with the product (PMs and developers) and support team to open up the discussion and bring forward more UX debt items. Together, we shared trends and patterns we'd seen from analytics or from our support chats to decide if further investigation was needed to build the list. 📃</h3>
+				<h3>Perhaps the best way to uncover UX debt was by collecting our merchants' feedback. The sources for user feedback I looked to include,</h3>
+				<ul>
+					<li>Tags and trends on support chats.</li>
+					<li>Chat and email conversations we've had with merchants on support chats.</li>
+					<img src="images/helscout-chat.png" alt="UserTesting.com example">
+					<li>Ongoing user tests that focus on key user flows.</li>
+					<img src="images/usertestingcom.png" alt="UserTesting.com example">
+					<li>Analytics from Mixpanel and Metabase when anecdotal/qualitative evidence weren't enough to give us the context we needed.</li>
+				</ul>
+				<h3>Lastly, we worded each issue from our merchants' or their customers' standpoint and how frequently each issue occurs.</h3>
+				<img src="images/debt-example.png" alt="UX debt example">
+				<h2>Prioritizing UX debt</h2>
+				<h3>When we had gathered a list of UX debt issues, their severity, frequency, and location in the user journeys were used to drive their prioritization.</h3>
+				<h3>Using color, I categorized each UX debt issue by their location:</h3>
+				<h3>Smile Admin:</h3>
+				<ul>
+					<li>Onboarding</li>
+					<li>Home</li>
+					<li>Program</li>
+					<li>Customers</li>
+					<li>Performance</li>
+					<li>Branding</li>
+					<li>Notifications</li>
+					<li>Apps</li>
+					<li>Settings</li>
+					<li>Navigation</li>
+				</ul>
+				<h3>Smile UI:</h3>
+				<ul>
+					<li>Launcher</li>
+					<li>Panel</li>
+				</ul>
+				<h3>The list of UX debt looked like this:</h3>
+				<img src="images/matrix-empty.png" alt="Empty severity plot for UX debt">
+				<h2>Triaging UX debt</h2>
+				<h3>Once the UX debt issues were categorized, I set up some more time with the product team, including PMs and developers, to place each of the items on a prioritization matrix. However, instead of visualizing the matrix as a scatter plot, I decided to make each quadrant a bucket. The quadrants that were labeled, High impact-Low effort, were the issues we planned to tackle first.</h3>
+				<h3>Once we were done, the matrix looked like this: </h3>
+				<img src="images/matrix-full.png" alt="Populated severity plot for UX debt">
+				<h3>Since we use Jira to manage our project sprints, I added the High impact-Low effort issues into our first sprint for the new year. By entering these UX debt issues as tasks in Jira, we created a source of truth for tracking the progress of the UX debt, set clear accountability, and created a lightweight road map for whittling down our debt.</h3>
+				<h3>After two sprints and several releases, from incremental improvements to modest redesigns, we’ve learned a lot about tackling UX debt as a product team, and the nitty gritty involved in getting these out the door as fast as possible. 💨</h3>
+				<h3 class="backtop"><a href="#top">Back to top</a></h3>
+			</div>
 		</div>
-	</div>
-</body>
-
+	</body>
 </html>
