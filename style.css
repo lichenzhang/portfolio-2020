@@ -21,7 +21,7 @@
 		}
 
 		h1 {
-			font: 32px "Tiempos Headline", sans-serif;
+			font: 32px "Avenir Next", sans-serif;
 			font-weight: 500;
 			margin-top: 50px;
 			margin-bottom:0px;
@@ -34,13 +34,6 @@
 
 		h3 {
 			font: 16px/38px "Avenir Next", sans-serif;
-			padding-top: 5px;
-			padding-bottom: 5px;
-			font-weight: 500;
-		}
-
-		h4 {
-			font: 16px/38px "Tiempos Headline", sans-serif;
 			padding-top: 5px;
 			padding-bottom: 5px;
 			font-weight: 500;
