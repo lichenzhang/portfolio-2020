@@ -26,6 +26,13 @@
 			margin-top: 50px;
 			margin-bottom:0px;
 		}
+
+		.h1-home{
+			margin-top: 0px;
+			text-align: center;
+		}
+
+
 		h2 {
 			font: 16px/38px "Avenir Next", sans-serif;
 			font-weight: 700;
@@ -50,6 +57,15 @@
 			font: 18px/38px "Avenir Next", sans-serif;
 			font-weight: 500;
 			color: #676E85;
+			text-align: center;
+		 }
+
+		 .infotext-home{
+		 	display: block;"
+		 	font: 18px/38px "Avenir Next", sans-serif;
+			font-weight: 500;
+			color: #676E85;
+			text-align: center;
 		 }
 
 		 .caption {
@@ -82,6 +98,13 @@
 			width: 100%;
 			padding-top: 10px;
 			padding-bottom: 10px;
+		}
+
+		.img-me{
+			width:15%;
+			display: block; 
+			margin-left: auto; 
+			margin-right: auto;
 		}
 
 		.img-back-arrow{
