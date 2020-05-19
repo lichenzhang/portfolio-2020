@@ -10,6 +10,9 @@
 		<meta name="Keywords" content="lichen zhang, zhang">
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 		<link rel="icon" href="./favicon.ico" type="image/x-icon">
+		<script src="assets/jquery.min.js"></script>
+		<link rel="stylesheet" href="assets/jquery.fancybox.min.css" />
+		<script src="assets/jquery.fancybox.min.js"></script>
 		<!-- Hotjar Tracking Code for https://www.lichenzhang.com/ -->
 		<script>
 		(function(h,o,t,j,a,r){
@@ -26,19 +29,25 @@
 		<a name="top"></a>
 		<div class="container" >
 			<div id="wrapper">
-				<div class="back-home"><a href="index.html">Home</a></div>
-				<h1>Bringing Smile to WooCommerce</h1>
-				<span class="infotext">Building an integration from exploration to beta</span>
-				<h2>Problem</h2>
-				<p>At Smile, our vision is to drive sustainable growth for every small business. One way to achieve this is by bringing Smile to more merchants, beyond those on Shopify and BigCommerce.
-				</p>
-				<h2>Opportunity</h2>
-				<p>Choosing to pursue WooCommerce, over a handful of other ecommerce platforms, was influenced first and foremost by the amount of incoming demand. Every week, we had around 6-10 merchants asking about or requesting for a WooCommerce integration.</p>
-				<p>Beyond demand, my team also investigated the number of merchants that Smile could potentially be available to, if the platform served the right merchant segment (entrepreneurs and small businesses), and which other loyalty programs were already available on the platform.</p>
-				<img src="images/onboarding.png" alt="Onboarding platform responses">
+				<div class="back-home"><a href="index.html">< Home</a></div>
+				<h1 class="project">Bringing Smile to WooCommerce</h1>
+				<a class="plain" data-fancybox="gallery" href="images/CS2.png"><img src="images/CS2.png" alt="VIP configuration page redesign"></a>
+
+				<h4>Overview</h4>
+				<p>At Smile, our vision is to drive sustainable growth for every small business. One way to achieve this is by bringing Smile to more merchants, beyond those on Shopify and BigCommerce.</p>
+				<p>Every week, we had around 6-10 merchants asking about or requesting for a WooCommerce integration. Choosing to pursue WooCommerce, over a handful of other ecommerce platforms, was influenced first and foremost by the amount of incoming demand. I was the lead designer for the project and worked with 3 developers, a client support lead, and a PM.</p>
+				<h4>Timeline</h4>
+				<p>Oct 2019 - Dec 2019</p>
+				<hr class="solid">
+
+				<h3>Opportunity</h3>
+				<p>Beyond demand, my team also investigated the number of merchants that Smile could potentially be available to, if the platform served the right merchant segment (entrepreneurs and small businesses), and which other reward programs were already available on the platform.</p>
+				<a class="plain" data-fancybox="gallery" href="images/onboarding.png"><img class="project-img" src="images/onboarding.png" alt="Onboarding platform responses"></a>
 				<p>WooCommerce powers 21% of all ecommerce stores worldwide. This means that the integration would make Smile available to millions of new merchants around the world. In comparison, Shopify has the 2nd largest market share at 18%.</p>
-				<h2>Platform exploration</h2>
-				<p>I was the lead designer for the project and worked with 3 developers, a client support lead, and a PM. I led the initial exploration of WordPress and WooCommerce, digging for answers to questions like:</p>
+				<hr class="solid">
+
+				<h3>Platform exploration</h3>
+				<p>I led the initial exploration of WordPress and WooCommerce, digging for answers to questions like:</p>
 				<ol>
 					<li>What’s the plugin store experience like?</li>
 					<li>What's plugin installation process like?</li>
@@ -49,18 +58,18 @@
 					<li>How will merchants find us?</li>
 				</ol>
 				<p>To start, I quickly spun up a WooCommerce shop to start discovering the merchant and customer experience. My goal was to uncover as many unknowns as possible for my team before the project cycle started.</p>
-				<h2>Merchant reach-out</h2>
+				<hr class="solid">
+
+				<h3>Merchant reach-out</h3>
 				<p>Next, I contacted all the WooCommerce merchants who had contacted us about an integration over the past five months. I collected these contacts through:</p>
-				<ol>
-					<li>HelpScout</li>
-					<img src="images/helpscoutconvo.png" alt="HelpScout email">
-					
-					<li>Our WooCommerce integration landing page</li>
-					<img src="images/landing.png" alt="Smile WooCommerce integration merchant landing page">
-					<li>Our onboarding through website signups</li>
-					<img src="images/onboard.png" alt="Signup onboarding">
-				</ol>
-				<img src="images/wooemail.png" alt="WooCommerce email out-reach">
+				<p>1. HelpScout</p>
+				<a class="plain" data-fancybox="gallery" href="images/helpscoutconvo.png"><img class="project-img" src="images/helpscoutconvo.png" alt="HelpScout email"></a>					
+				<p>2. Our WooCommerce integration landing page</p>
+				<a class="plain" data-fancybox="gallery" href="images/landing.png"><img class="project-img" src="images/landing.png" alt="Smile WooCommerce integration merchant landing page"></a>				
+				<p>3. Our onboarding through website signups</p>
+				<a class="plain" data-fancybox="gallery" href="images/onboard.png"><img class="project-img" src="images/onboard.png" alt="Signup onboarding"></a>
+				
+				<a class="plain" data-fancybox="gallery" href="images/wooemail.png"><img class="project-img" src="images/wooemail.png" alt="WooCommerce email out-reach"></a>
 				<p>Over two weeks, video chats were scheduled with 15 merchants. I aimed to:</p>
 				<ol>
 					<li>Listen to their stories.</li>
@@ -70,22 +79,30 @@
 					<li>If they’ve already built a custom integration with Smile, how did they build it?</li>
 				</ol>
 				<p>I created a list of 30 questions, each of which probed further into each of the questions above. I also wanted to build a relationship with these merchants as they’d be the first to try our beta and give feedback.</p>
-				<h2>Scope - think big, start small</h2>
+				<hr class="solid">
+
+				<h3>Scope - think big, start small</h3>
 				<p>The scope of our project was determined by the team after we attempted to uncover as many unknown as we could. The outcome of the build cycle was to launch a Smile beta for WooCommerce merchants. We stripped away all the current functionalities we offer and kept the essentials: points and referrals. Features that were excluded in the beta include VIP tiers, campaigns, guest referrals, etc. We wanted to focus on getting our core offering stable before adding in features.</p>
-				<img src="images/figma-woo-prototype.png" alt="Figma prototype">
-				<img src="images/connect-woo.png" alt="Connect WooCommerce to Smile">
-				<p>I tried, as much as possible, to resist the temptation to create custom designs or code that deviates away from our current offering on Shopify and BigCommerce. In this way, our growth potential for scaling and expanding to other platforms would not be limited. </p>
-				<h2>Collaborating with customer success, marketing, and support teams</h2>
+				<a class="plain" data-fancybox="gallery" href="images/figma-woo-prototype.png"><img class="project-img" src="images/figma-woo-prototype.png" alt="Figma prototype"></a>
+				<a class="plain" data-fancybox="gallery" href="images/connect-woo.png"><img class="project-img" src="images/connect-woo.png" alt="Connect WooCommerce to Smile"></a>
+				<p>I tried, as much as possible, to resist the temptation to create custom designs or code that deviates away from our current offering on Shopify and BigCommerce. In this way, our growth potential for scaling and expanding to other platforms would not be limited.</p>
+				<hr class="solid">
+
+				<h3>Collaborating with customer success, marketing, and support teams</h3>
 				<p>I worked closely with the customer success, support, and marketing teams to design a seamless experience from onboarding to activation. I walked through the WordPress and WooCommerce interface and their nuances with the CS and support teams. The marketing team helped to craft our release including an official release blog post, a platform landing page, ads on social media, and email newsletters.</p>
-				<img src="images/figma-woo-site.png" alt="Signup onboarding">
+				<a class="plain" data-fancybox="gallery" href="images/figma-woo-site.png"><img class="project-img" src="images/figma-woo-site.png" alt="Signup onboarding"></a>
 				<p>I also wrote a help doc on the install process, requirements for installation, customer account creation, and how to leave feedback. 💬</p>
-				<img class="img-border" src="images/woo-helpdoc.png" alt="WooCommerce HelpDoc">
-				<h2>Beta release 🎉</h2>
+				<a class="plain" data-fancybox="gallery" href="images/woo-helpdoc.png"><img class="project-img" src="images/woo-helpdoc.png" alt="WooCommerce HelpDoc"></a>
+				<hr class="solid">
+
+				<h3>Beta release 🎉</h3>
 				<p>We planned to release our plugin in two phases: beta and official release. Our goal with the beta is to learn as quickly as we can and adjust for any hiccups we encounter. That means that we need to get as many beta installs as possible to collect data and feedback from merchants.</p>
 				<p>For the beta release, we decided that the installation process would be through a .zip file to download through our site and then upload to WordPress. This was the fastest way we could make our beta available for installation while continuing to give us flexibility in releasing new updates as we iterate. Once we’ve released the beta, we'd aim to get listed on the WordPress Plugin Marketplace to increase exposure and increase our rate of installs.</p>
-				<img class="img-border" src="images/download-zip.png" alt="Smile install zip">
-				<img src="images/smile-wordpress.png" alt="Smile's WordPress integration page">
-				<h2>Measuring success</h2>
+				<a class="plain" data-fancybox="gallery" href="images/download-zip.png"><img class="project-img" src="images/download-zip.png" alt="Smile install zip"></a>
+				<a class="plain" data-fancybox="gallery" href="images/smile-wordpress.png"><img class="project-img" src="images/smile-wordpress.png" alt="Smile's WordPress integration page"></a>
+				<hr class="solid">
+
+				<h3>Measuring success</h3>
 				<p>We identified the metrics that we'd be tracking following the beta release. Most of them will translate to the official release as the new baseline metrics to beat. Since we didn’t have any baseline metrics for the WooCommerce beta release, we extrapolated using Shopify as a proxy.</p>
 				<p>These metrics and contact information are tracked on Metabase, Mixpanel, Google Analytics, and HubSpot.</p>
 				<ul>
@@ -95,8 +112,9 @@
 				</ul>
 				<p>On Mixpanel, we'd tracked how our WooCommerce merchants would move through different flows and identify where the greatest amount of friction or drop-off occurs.</p>
 				<p>I also created a plan upgrade page to surface the number of merchants interested in plan and feature upgrades. The CTA, "Let's talk" opens HelpScout to continue the conversation with our team.</p>
-				<img src="images/upgrade.png" alt="Smile upgrade page">
-				<p class="backtop"><a href="#top">Back to top</a></p>
+				<a class="plain" data-fancybox="gallery" href="images/upgrade.png"><img class="project-img" src="images/upgrade.png" alt="Smile upgrade page"></a>
+				<p>For this project, I’m particularly proud of the exploration and research work that I’ve delivered in additional to executing a good first solution. This work will help inform the future product roadmap for more expansion projects ahead. 🚀</p>
+				<p class="back-top"><a href="#top">Back to top</a></p>
 			</div>
 		</div>
 	</body>
